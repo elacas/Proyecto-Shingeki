@@ -1,36 +1,55 @@
 
 header{
     background-color: black;
+
+    border: 4px solid rgb(77, 9, 3);
+
+
+
+
 }
+
 main{
     background-image: url(https://cms.rhinoshield.app/public/images/small_ip_page_attack_on_titan_icon_e6b012d7a5.jpg);
     
     background-size: contain;
+
+    border: 2px solid orangered;
+    
+    list-style: none;
+    list-style-type: none; # D:;
 }
 
  article {
-    background-image: url(https://wallpapers.com/images/high/aot-the-walls-bnluhbt1havoyn8q.webp);
+    
+   background-image: url(https://wallpapers.com/images/high/aot-the-walls-bnluhbt1havoyn8q.webp);
+    
     background-size: contain;
-
+    
+    border: 2px solid rgb(77, 9, 3);
+   
+   list-style: none;
  }
 
  section{
+   
    background-color: goldenrod;
    opacity: 0.75;
    stop-opacity: initial;
    color: black;
+   border: 2px solid orangered
+   
  }
  aside{
     background-color: rgb(48, 48, 48);
+    border: 2px solid orangered;
  }
 
  footer {
     background-color: black;
     color: burlywood;
+    border: 2px solid orangered;
  }
 
 
- section{
-   list-style-type: none;
-}
-
+ 
