@@ -10,12 +10,13 @@ main{
 
  article {
     background-image: url(https://wallpapers.com/images/high/aot-the-walls-bnluhbt1havoyn8q.webp);
+    background-size: contain;
 
  }
 
  section{
    background-color: goldenrod;
-   opacity: 0.50;
+   opacity: 0.75;
    stop-opacity: unset;
    color: black;
  }
