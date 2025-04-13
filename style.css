@@ -1,7 +1,8 @@
 
 header{
 
-  position: relative;
+  position:relative;
+
     background-color: black;
 
     border: 4px solid rgb(77, 9, 3);
@@ -39,16 +40,18 @@ main{
    
  }
  aside{
+    position: relative;
     background-color: rgb(48, 48, 48);
     border: 2px solid orangered;
-    position: relative;
+    
  }
 
- footer {
+ footer { 
+    position: relative;
     background-color: black;
     color: burlywood;
     border: 2px solid orangered;
-    position: relative;
+   
     
  }
 
