@@ -1,9 +1,19 @@
 
+header{
+    background-color: black;
+}
+main{
+    background-image: url(https://cms.rhinoshield.app/public/images/small_ip_page_attack_on_titan_icon_e6b012d7a5.jpg);
+    
+    background-size: contain;
+}
 
-body{
-    background-image: image(<blockquote class="imgur-embed-pub" lang="en" data-id="a/WrTNEgk" data-context="false" ><a href="//imgur.com/a/WrTNEgk"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>);
+ article {
+    background-image: url(https://wallpapers.com/images/high/aot-the-walls-bnluhbt1havoyn8q.webp);
+    border: 1;
+    background-size: cover;
+
  }
-
  aside{
     background-color: rgb(48, 48, 48);
  }
@@ -11,4 +21,11 @@ body{
  footer {
     background-color: black;
     color: burlywood;
+ }
+
+
+ article{
+    -webkit-text-size-adjust: auto;
+    text-size-adjust: auto;
+
  }
