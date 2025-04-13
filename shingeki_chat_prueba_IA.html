@@ -1,0 +1,25 @@
+<select id="personaje">
+    <option value="levi">Levi</option>
+    <option value="eren">Eren</option>
+  </select>
+  
+  <input type="text" id="pregunta" />
+  <button onclick="enviar()">Enviar</button>
+  
+  <div id="respuesta"></div>
+  
+  <script>
+    const prompts = {
+      levi: "Responde como Levi...",
+      eren: "Responde como Eren..."
+    };
+  
+    async function enviar() {
+      const personaje = document.getElementById("personaje").value;
+      const pregunta = document.getElementById("pregunta").value;
+      const prompt = prompts[personaje] + " La pregunta es: " + pregunta;
+  
+      // Aquí iría la llamada a la API de IA
+      console.log("Enviando a la IA:", prompt);
+    }
+  </script>

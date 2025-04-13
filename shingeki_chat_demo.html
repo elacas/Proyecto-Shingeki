@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shingeki Chat</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+    select, input, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+    #respuesta {
+      margin-top: 20px;
+      font-style: italic;
+      color: #9cdcfe;
+    }
+  </style>
+</head>
+<body>
+  <h1>Consulta a un personaje de Shingeki no Kyojin</h1>
+
+  <label for="personaje">Elige un personaje:</label>
+  <select id="personaje">
+    <option value="levi">Levi</option>
+    <option value="eren">Eren</option>
+    <option value="mikasa">Mikasa</option>
+  </select>
+
+  <br />
+  <input type="text" id="pregunta" placeholder="Escribe tu pregunta aquí..." size="40"/>
+  <button onclick="responder()">Enviar</button>
+
+  <div id="respuesta"></div>
+
+  <script>
+    const respuestasSimuladas = {
+      levi: "Tsk. No me hagas perder el tiempo con preguntas estúpidas.",
+      eren: "¡Voy a destruirlos a todos! Pero dime... ¿por qué preguntas eso?",
+      mikasa: "Si es por Eren, haré lo que sea. No me importa lo demás.",
+    };
+
+    function responder() {
+      const personaje = document.getElementById("personaje").value;
+      const pregunta = document.getElementById("pregunta").value;
+
+      if (pregunta.trim() === "") {
+        document.getElementById("respuesta").textContent = "Escribe una pregunta primero.";
+        return;
+      }
+
+      const respuesta = respuestasSimuladas[personaje];
+      document.getElementById("respuesta").textContent = respuesta;
+    }
+  </script>
+</body>
+</html>
