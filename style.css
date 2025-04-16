@@ -5,11 +5,23 @@ header{
   
     background-color: black;
 
+    background-image: url(https://cms.rhinoshield.app/public/images/small_ip_page_attack_on_titan_icon_e6b012d7a5.jpg);
+
+    background-size: 70%;
+
 }
 
-h1{
-  font-size: 40px;
+.caja_personaje{
+   background-color: darkgreen;
 }
+
+ 
+
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  }
 
 #paradis{
 
