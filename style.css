@@ -31,6 +31,7 @@ h1{
   text-align: left;
   background-image:url(https://pm1.aminoapps.com/6859/0337fd14865d9dd441bfd4bca9320443e4210617v2_hq.jpg);
   background-position: left;
+  background-size: cover;
  }
 
 #Mas_alla{
@@ -103,11 +104,11 @@ p{
   font-size: 20px;
   font-display: auto;
   border: 1px solid rgb(77, 9, 3);
-  background-color:black;
-  color: bisque;
   font-weight: 200;
-
-  
-
+  text-align: right; 
+  background-color: bisque; 
+  color: black;
+  max-width: 300px;
+  max-height: 150px;
 }
 
