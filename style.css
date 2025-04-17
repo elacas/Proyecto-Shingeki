@@ -22,15 +22,21 @@ h1{
   }
 
 #paradis{
-
   font-weight: bold;
   font-size: 40px;
-}
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-image:url(https://pm1.aminoapps.com/6859/0337fd14865d9dd441bfd4bca9320443e4210617v2_hq.jpg);
+  background-position: left;
+ }
 
 #Mas_alla{
   font-weight: bold;
   font-size: 40px;
-}
+  text-align: right;
+  background-image:url(https://preview.redd.it/aot-spoilers-the-nation-and-people-of-marley-on-the-eve-of-v0-7rwfts24y2aa1.png?width=1080&crop=smart&auto=webp&s=d60294636c23265be4ca220b2ff9af6c3cef7013)
+  }
+
 h2{
   font-size: 30px;
 }
@@ -40,65 +46,55 @@ h3{
 }
 
 main{
-  
-
-    background-image: url(https://cms.rhinoshield.app/public/images/small_ip_page_attack_on_titan_icon_e6b012d7a5.jpg);
-    
-    background-size: contain;
-
-    border: 2px solid orangered;
-    
+  image-rendering: optimizeQuality;
+  background-image:url(https://wallpapers.com/images/high/aot-the-walls-bnluhbt1havoyn8q.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    max-width: 100%;
+    border: orangered;
 }
 
- article {
-    
-   background-image: url(https://wallpapers.com/images/high/aot-the-walls-bnluhbt1havoyn8q.webp);
-    
-    background-size: cover;
-    
+
+ article{  
+   background-position: center;
+   background-size: cover;
+   background-repeat:no-repeat ;
+   max-width: 100%;
     border: 2px solid rgb(77, 9, 3);
-   
  }
 
  section{
-   
    background-color: goldenrod;
    opacity: 0.75;
    stop-opacity: initial;
    color: black;
    border: 2px solid orangered
-   
- }
- aside{
-    
+   }
+ 
+   aside{
     background-color: rgb(48, 48, 48);
     border: 2px solid orangered;
-    
- }
+    }
 
  footer { 
-    
     background-color: black;
     color: rgb(0, 0, 0);
     border: 2px solid orangered; 
     }
 
  #presentacion{
-
   text-align: left;
   text-size-adjust: 16px;
   border: 2 px; 
   background-color: darkkhaki;
+}
 
- }
-*
-{
+*{
   position: relative;
   text-align: left;
   text-size-adjust: 16px;
   list-style: none
-    
-
 }
 
 p{
@@ -106,3 +102,4 @@ p{
   font-size: 20px;
   font-display: auto;
 }
+
