@@ -7,18 +7,21 @@ header{
 
     background-image: url(https://cms.rhinoshield.app/public/images/small_ip_page_attack_on_titan_icon_e6b012d7a5.jpg);
 
-    background-size: 80%;
+    background-size: 95%;
 
 }
 
 .caja_personaje{
    background-color: darkgreen;
+   
+
 }
  
 
 h1{
   text-align: center;
   font-size: 40px;
+  
   }
 
 #paradis{
@@ -39,6 +42,7 @@ h1{
 
 h2{
   font-size: 30px;
+  text-align: center;
 }
 
 h3{
@@ -75,6 +79,9 @@ main{
    aside{
     background-color: rgb(48, 48, 48);
     border: 2px solid orangered;
+    text-align: right;
+    text-size-adjust: 50%;
+    text-align: left;
     }
 
  footer { 
@@ -83,23 +90,24 @@ main{
     border: 2px solid orangered; 
     }
 
- #presentacion{
-  text-align: left;
-  text-size-adjust: 16px;
-  border: 2 px; 
-  background-color: darkkhaki;
-}
 
 *{
   position: relative;
   text-align: left;
   text-size-adjust: 16px;
-  list-style: none
+  list-style: none;
+  margin: 0%;
 }
 
 p{
-  text-align: left;
   font-size: 20px;
   font-display: auto;
+  border: 1px solid rgb(77, 9, 3);
+  background-color:black;
+  color: bisque;
+  font-weight: 200;
+
+  
+
 }
 
