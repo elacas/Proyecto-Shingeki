@@ -11,7 +11,7 @@ header{
 
 }
 
-.caja_personaje{
+.personaje{
    background-color: darkgreen;
    
 
@@ -30,20 +30,19 @@ h1{
   color: rgb(0, 0, 0);
   text-align: left;
   background-image:url(https://pm1.aminoapps.com/6859/0337fd14865d9dd441bfd4bca9320443e4210617v2_hq.jpg);
-  background-position: left;
   background-size: cover;
  }
+
 
 #Mas_alla{
   font-weight: bold;
   font-size: 40px;
-  text-align: right;
+  text-align: center;
   background-image:url(https://preview.redd.it/aot-spoilers-the-nation-and-people-of-marley-on-the-eve-of-v0-7rwfts24y2aa1.png?width=1080&crop=smart&auto=webp&s=d60294636c23265be4ca220b2ff9af6c3cef7013)
   }
 
 h2{
   font-size: 30px;
-  text-align: center;
 }
 
 h3{
@@ -80,15 +79,14 @@ main{
    aside{
     background-color: rgb(48, 48, 48);
     border: 2px solid orangered;
-    text-align: right;
-    text-size-adjust: 50%;
-    text-align: left;
+     text-size-adjust: 50%;
     }
 
  footer { 
     background-color: black;
     color: rgb(0, 0, 0);
     border: 2px solid orangered;
+    text-size-adjust: 25%;
     }
 
 
@@ -96,20 +94,20 @@ main{
   text-size-adjust: 16px;
   list-style: none;
   margin: 0%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  
 }
 
 p{
-  font-size: 70px;
-  font-display: auto;
+  font-size: 20;
   border: 1px solid rgb(77, 9, 3);
   font-weight: 200;
-  text-align: right; 
+  text-align: left; 
   background-color: rgb(0, 0, 0); 
   color: bisque;
   position: left;
-  max-width: 56%;
-  min-width: 56%;
-  max-height: 56%;
-  min-height: 56%;
+  size: relative;
+  
 }
 
