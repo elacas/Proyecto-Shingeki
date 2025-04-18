@@ -5,7 +5,9 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   list-style: none;
  }
-
+ html{
+  scroll-behavior: smooth;
+ }
 a{
   color:antiquewhite;
   text-decoration: none;
@@ -18,32 +20,30 @@ a,h1,h2,h3,strong{
  }
 header{
     image-rendering: optimizeQuality;
-    border: 4px solid rgb(77, 9, 3);
+    border: 1px solid rgb(77, 9, 3);
     background-color: black;
-    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg); 
-    background-position: center; 
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);  
     display: flex;
     align-items: center;
     gap: 20px;
     justify-content: space-between;
 
  }
+ 
+#cuerpo_exploracion>img{
+  html, body {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    object-fit: cover;
+  }
 
- main> h2> img{
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
- }
-
+}
+  
 .caja_personaje{
    background-color: darkgreen;
  }
  
-h1{
-  text-align: center;
-  font-size: 40px; 
-  }
-
 #paradis{
   font-weight: bold;
   font-size: 40px;
@@ -53,12 +53,11 @@ h1{
   background-size: cover;
  }
 
-
 #Mas_alla{
   font-weight: bold;
   font-size: 40px;
   text-align: center;
-  background-image:url(https://preview.redd.it/aot-spoilers-the-nation-and-people-of-marley-on-the-eve-of-v0-7rwfts24y2aa1.png?width=1080&crop=smart&auto=webp&s=d60294636c23265be4ca220b2ff9af6c3cef7013)
+  background-image:url(https://preview.redd.it/aot-spoilers-the-nation-and-people-of-marley-on-the-eve-of-v0-7rwfts24y2aa1.png?width=1080&crop=smart&auto=webp&s=d60294636c23265be4ca220b2ff9af6c3cef7013);
   }
 
   body{
@@ -66,9 +65,14 @@ h1{
     padding: 20px;
   }
 
-h2{
-  font-size: 30px;
-}
+h1{
+    text-align: center;
+    font-size: 40px; 
+  }
+
+ h2{
+   font-size: 30px;
+  }
 
 h3{
   font-size: 20px;
@@ -82,37 +86,30 @@ main{
     background-repeat:no-repeat ;
     max-width: 100%;
     border: orangered;
+    size: relative;
 }
-
-
- article{  
-   background-position: center;
-   background-size: cover;
-   background-repeat:no-repeat ;
-   max-width: 100%;
-    border: 2px solid rgb(77, 9, 3);
- }
 
  section{
    background-color: goldenrod;
-   opacity: 0.75;
-   stop-opacity: initial;
+   opacity: 0.75; 
    color: black;
-   border: 2px solid orangered
+   border: 2px solid orangered;
+   size: relative;
    }
  
    aside{
     background-color: rgb(48, 48, 48);
     border: 2px solid orangered;
      text-size-adjust: 50%;
+     size: relative;
     }
 
  footer { 
     background-color: black;
     color: rgb(0, 0, 0);
     border: 2px solid orangered;
-    text-size-adjust: 25%;
     }
+    
     .footer-content {
       display: flex;
       flex-wrap: wrap;
@@ -130,17 +127,13 @@ main{
       flex: 1;
       min-width: 300px;
       text-align: right;
-    }
-    
-    .footer-image img {
       max-width: 100%;
       height: auto;
-      background-color: black;
-      padding: 10px;
-      border-radius: 8px;
     }
     
-
+footer>h2{
+  color: bisque;
+}
 p{
   font-size: 20;
   border: 1px solid rgb(77, 9, 3);
@@ -151,6 +144,5 @@ p{
   position: left;
   size: relative;
   padding: 1px;
-  
 }
 
