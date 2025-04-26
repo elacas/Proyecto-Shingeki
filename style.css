@@ -33,12 +33,18 @@ header{
 
  }
 
-.imagen_header img{
+.imagen_header{
   width:100%;
 }
 
- header ul{
- gap: 20px;
+.imagen_header img {
+  width: 350px;
+  height:auto;
+  display: flex;
+} 
+
+header ul{
+ gap: 2%;
  font-size: 2vw;
  height: fit-content;
  display: flex;
@@ -49,7 +55,7 @@ header{
   display: flex;
   align-items:baseline;
   justify-self: space-between;
-  padding: 2%;
+  padding: 1%;
   width: 100%;
   margin-left:15%;
   margin-right: 15%;
