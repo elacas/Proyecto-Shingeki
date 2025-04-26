@@ -29,7 +29,7 @@ header{
 
  .imagen_header img{
   width: 40%;
-  margin-left: 45%;
+  margin-left: 27%;
 
  }
 
@@ -37,11 +37,6 @@ header{
   width:100%;
 }
 
-.imagen_header img {
-  width: 350px;
-  height:auto;
-  display: flex;
-} 
 
 header ul{
  gap: 2%;
@@ -90,8 +85,8 @@ align-items: center;
 width: 80%;
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-gap: 10%;
-margin-bottom: 23%;
+gap: 7%;
+margin-bottom: 20%;
 margin-top: 5%;
 }
 
