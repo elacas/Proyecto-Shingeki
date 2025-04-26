@@ -27,7 +27,7 @@ header{
     background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);  
  }
 
- .imagen_header{
+ .imagen_header img{
   width: 30%;
   margin-left: 35%;
 
@@ -91,6 +91,7 @@ width: 80%;
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 gap: 2%;
+margin-bottom: 10%;
 }
 
 #faccion li {
