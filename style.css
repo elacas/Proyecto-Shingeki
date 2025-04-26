@@ -91,7 +91,8 @@ width: 80%;
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 gap: 10%;
-margin-bottom: 20%;
+margin-bottom: 23%;
+margin-top: 5%;
 }
 
 #faccion li {
@@ -102,8 +103,9 @@ margin-bottom: 20%;
 }
 
 .caja_personaje img{
-  width: 50%;
-  height: 80%;
+  width: 60%;
+  height: 90%;
+  align-items: center;
 
 }
 
