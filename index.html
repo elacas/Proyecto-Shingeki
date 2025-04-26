@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Página web de personajes de Shingeki no Kyojin">
-    <meta translate="no"name="description" content="Página web de personajes de Attack on Titan">
+    <meta name="description" content="Página web de personajes de Attack on Titan">
     <meta name="keywords" contents="Shingeki, Kyojin, Eren, Levi, Mikasa, Ackerman, Titan, Titans, Survey Corps, escuadron de Exploración,policia Militar, tropas guarnicion">
     <meta name="author" content="Elaine Castiñeira" />
     <meta property= "og:title" content="Consulta Shingeki">
     <meta property="Charla con los protagonistas de Shingeki no Kyojin">
     <meta property= "og:image" content="https://i.pinimg.com/736x/20/57/de/2057deb6daa3d5cc79a92cda9170996f.jpg">
-    <meta property="og:url" content=""><!--Cuando tenga la URL-->
+    <meta property="og:url" content="https://grand-piroshki-910551.netlify.app/">
    
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" href="https://images.steamusercontent.com/ugc/540773470654496327/2FF4109D8BE0A195FDC91CF7BCDDB441F5432093/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" type="image-icon">
@@ -21,11 +21,11 @@
 </head>
 <body>
    
-    <header><div style="text-align: center;">
-        <img src="https://cms.rhinoshield.app/public/images/small_ip_page_attack_on_titan_icon_e6b012d7a5.jpg" href="index.html" alt="Shingeki Logo"src="index.html" text-allign="center">
-      </div> 
+    <header>
+        <div class="imagen_header">><img src="https://cms.rhinoshield.app/public/images/small_ip_page_attack_on_titan_icon_e6b012d7a5.jpg" href="index.html" alt="Shingeki Logo"src="index.html"></div>
+        
       <nav>
-        <ul>
+        <ul class="lista_navegador">
             <li><a href="#about">Sobre el proyecto</a></li>
             <li><a href="#faccion">Seleccion de faccion</a></li>
             <li><a href="#presentacion">Sobre mi</a></li>
@@ -34,7 +34,8 @@
     </header>
  
 <main>
-    <section id="about">
+    
+    <section id="about">    
         
         <h2>Información sobre el proyecto</h2>
     
@@ -73,103 +74,134 @@
 
     </section>
    
-    <section id="faccion">
      <h1>Selecciona Facción</h1>
+     
+  
+      <h2 id="paradis"; style="text-align: left">Paradis</h2>
+           
+            <a href="#cuerpo_exploracion"><div class="logos"><img src="https://i.pinimg.com/736x/71/0a/2b/710a2bfbbd0bba4d1b0ec5fb4852e617.jpg" alt="Logo_cuerpo_exploracion"></a><h3>cuerpo de exploración</h3></div>
+       
+     <section id="faccion">       
+                 <ul>
+                     <li class="caja_personaje"><img src="_personajes\cuerpo_exploracion\Eren.png" alt="imagen Eren">
+                        <details><summary><h3>Eren Jeager</h3></summary>
+                        <p>Descripción</p>
+                        <input type="text" placeholder="¡¡Tatakae!!">
+                        </details></li>
+                
+                        <li class="caja_personaje"><img src ="_personajes\cuerpo_exploracion\mikasa.webp" alt="imagen Mikasa">
+                        <details><summary><h3>Mikasa Ackerman</h3></summary>
+                        <p>Descripción</p>
+                        <input type="text" placeholder="¡¡Ereh!!">
+                        </details></li>
+                
+                        <li class="caja_personaje">
+                        <img src="https://e7.pngegg.com/pngimages/160/146/png-clipart-a-o-t-wings-of-freedom-attack-on-titan-2-armin-arlert-eren-yeager-anime-manga-video-game.png" alt="imagen armin">
+                        <details><summary><h3>Armin Arlet</h3></summary>
+                        <p>Descripción</p>
+                        <input type="text" placeholder="¡¡¿¿Eh??!!">
+                        </details></li>
+     
+                        <li class= "caja_personaje">
+                        <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/05/Sasha-Blouse-e1614008940911.png" alt="">
+                        <details><summary>
+                        <h3>Sasha Blouse</h3 text-align= "center"></summary>
+                        <p>Descripción</p>
+                        <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Carne!!">
+                        </li></details>
+
+                     <img src="" alt="">
+                     <details><summary><li class= "caja_personaje">
+                     <h3>Conie Springer</h3></summary>
+                     <p>Descripción</p>
+                     <input type="text" style="height: 50%;width: 30%;" placeholder="...">
+                     </li></details>
+     
+                    <li class= "caja_personaje"></li> <img src="" alt="">
+                     <details><summary>
+                     <h3>Berthold Hoover</h3></summary>
+                     <p>Descripción</p>
+                     <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Reiner!!">
+                     </details></li>
     
-         <ul>
-            <li><h2 id="paradis"; style="text-align: left">Paradis</h2></li>
-              <ul>
-                 <li id="cuerpo_exploracion">
-                    <img src="https://i.pinimg.com/736x/71/0a/2b/710a2bfbbd0bba4d1b0ec5fb4852e617.jpg" alt="Logo_cuerpo_exploracion" width="100%;">
-                    <h2>Cuerpo de Exploración</h2>
-                    <ul class="personaje"> 
-                    
-                        <details><summary><li class="caja_personaje">
-                            <h3>Eren Jeager</h3 text-align="left"></summary>
-                            <img src="" alt="">
-                            <p>Descripción</p>
-                            <input type="text" style="width: 300px; height: 200 px;" placeholder="¡¡Tatakae!!">
-                       </li></details>
-                        
-                        <details><summary><li class="caja_personaje">
-                             <h3>Mikasa Ackerman</h3 text-align="left"></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Ereh!!">
-                        </li></details>
-                        
-                         <details><summary><li class="caja_personaje">
-                             <h3>Armin Arlet</h3 text-align="left"></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡¿¿Eh??!!">
-                        </li></details>
-             
-                         <details><summary><li class= "caja_personaje">
-                             <h3>Sasha Blouse</h3 text-align= "center"></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Carne!!">
-                        </li></details>
+                     <img src="" alt="">
+                     <details><summary><li class= "caja_personaje">
+                     <h3>Reiner Braun</h3></summary>
+                     <p>Descripción</p>
+                     <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡AAAAAAAAAAA!!">
+                     </li></details>
+     
+                     <img src="" alt="">
+                     <details><summary><li class= "caja_personaje">
+                     <h3>Erwin Smith</h3></summary>
+                     <p>Descripción</p>
+                     <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Shinzo wo Sasageyo!!!">
+                     </li></details>
     
-                         <details><summary><li class= "caja_personaje">
-                             <h3>Conie Springer</h3></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="...">
-                        </li></details>
-             
-                         <details><summary><li class= "caja_personaje">
-                             <h3>Berthold Hoover</h3></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Reiner!!">
-                        </li></details>
+    
+                     <img src="" alt="">
+                     <details><summary><li class= "caja_personaje">
+                     <h3>Hange Zoe</h3></summary>
+                     <p>Descripción</p>
+                     <input type="text" style="height: 50%;width: 30%;" placeholder="Había una cucaracha">
+                     </li></details>
+    
+                     <img src="" alt="">
+                     <details><summary><li class= "caja_personaje">
+                     <h3>Levi Ackerman</h3></summary>
+                     <p>Descripción</p>
+                     <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Jeager!!!">
+                     <li></details>
+      
+                     <img src="" alt="">
+                     <details><summary><li class= "caja_personaje">
+                     <h3>Jean Kirstein</h3></summary>
+                     <p>Descripción</p>
+                     <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Maldito idiota!!!">
+                     </li></details>
+    
+                     <img src="" alt="">
+                     <details><summary><li class= "caja_personaje">
+                     <h3>Historia Reiss</h3></summary>
+                     <p>Descripción</p>
+                     <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Ymir!!">
+                     </li></details>
+                </ul>
+    </section>
+ 
+
+
+
+
+
+
+
+
+
+
+
+        
+       
+               
+                 <li><a href="#policia_militar"><div class="logos"><img src="https://i.pinimg.com/736x/1e/5f/e4/1e5fe4062477378402f2a1dbdabea4ee.jpg" alt="logo_policia_militar"></a><details><summary><h3>policia militar</h3></summary></li></div></details>
+                 <li><a href="#guarnicion"><div class="logos"><img src="https://i.pinimg.com/736x/85/2a/18/852a1802befc911d83d93286a5107ddc.jpg" alt="logo_tropas_guarnicion"></a><details><summary><h3>tropas de guarnicion</h3></summary></li></div></details>
+        
             
-                         <details><summary><li class= "caja_personaje">
-                             <h3>Reiner Braun</h3></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡AAAAAAAAAAA!!">
-                        </li></details>
-             
-                         <details><summary><li class= "caja_personaje">
-                             <h3>Erwin Smith</h3></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Shinzo wo Sasageyo!!!">
-                             </li></details>
             
-            
-                         <details><summary><li class= "caja_personaje">
-                             <h3>Hange Zoe</h3></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="Había una cucaracha">
-                        </li></details>
-            
-                         <details><summary><li class= "caja_personaje">
-                             <h3>Levi Ackerman</h3></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Jeager!!!">
-                        <li></details>
               
-                         <details><summary><li class= "caja_personaje">
-                             <h3>Jean Kirstein</h3></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Maldito idiota!!!">
-                        </li></details>
+    <h2 id="mas_alla">mas alla del muro</h2>
+              <ul>
+                   <li><a href="#marleyanos"></a><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Eldian_Star.jpg/640px-Eldian_Star.jpg" alt="brazal_eldiano" width="20%"><details><summary><h3>marleyanos</h3></summary></li></details>
+                  <li><a href="#no_marleyanos"><img src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/02/clan-azumabito-shingeki-no-kyojin.jpg" alt="simbolo_azumabito" width="20%" ></a><details><summary><h3>no marleyanos</h3></summary></li></details>
+             </ul></details>
+     
+        
+    |---------------------------------------------------------------------------------------------------|
+   
             
-                         <details><summary><li class= "caja_personaje">
-                             <h3>Historia Reiss</h3></summary>
-                             <img src="" alt="">
-                             <p>Descripción</p>
-                             <input type="text" style="height: 50%;width: 30%;" placeholder="¡¡Ymir!!">
-                        </li></details>
-                     </ul>
-                </li>
+            
+        
+    
                  <li id="policia_militar">
                     <img src="https://i.pinimg.com/736x/1e/5f/e4/1e5fe4062477378402f2a1dbdabea4ee.jpg" alt="logo_policia_militar" width="100%">
                     <h2>Policia Militar</h2>
@@ -259,7 +291,7 @@
                 </li>
               </ul>
             
-            <li><h2 id="Mas_alla";style="text-align:right">Más allá del Muro</h2></li>
+            <li><h2 id="Mas_alla1";style="text-align:right">Más allá del Muro</h2></li>
             <ul>
                 <li>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Eldian_Star.jpg/640px-Eldian_Star.jpg" alt="brazal_eldiano" width="100%">
@@ -341,7 +373,7 @@
                     </ul>
                   </li>
                </ul>
-           </ul>
+           </ul> 
     </section>
           
     <aside>
