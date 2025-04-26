@@ -28,8 +28,8 @@ header{
  }
 
  .imagen_header img{
-  width: 30%;
-  margin-left: 35%;
+  width: 40%;
+  margin-left: 45%;
 
  }
 
@@ -182,10 +182,10 @@ nav {
  aside{
     background-color: rgb(48, 48, 48);
     border: 2px solid orangered;
-     text-size-adjust: 50%;
-     display: flex;
-
-    }
+    width: 100%;
+    height: auto;
+    
+  }
 
  footer { 
     background-color: black;
