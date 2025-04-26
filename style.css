@@ -96,9 +96,14 @@ gap: 2%;
 #faccion li {
   align-items: center;
 }
-.caja_personaje img{
+.caja_personaje {
   width:100%;
-height: auto;
+}
+
+.caja_personaje img{
+  width: 20%;
+  height: auto;
+
 }
 
 .logos img{
