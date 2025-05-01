@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 0;
+}
+
+ 
+ :root {
+  --primary-color: #d35400;
+  --secondary-color: goldenrod;
+  --text-color: bisque;
+  --background-color: rgb(39, 38, 38);
+  --border-color: orangered;
+  
+  --heading-large: 2.5rem;
+  --heading-medium: 1.8rem;
+  --heading-small: 1.2rem;
+  --text-regular: 1rem;
+}
+
+ 
+ html{
+  scroll-behavior: smooth;
+ }
+
+ a{
+  color:rgb(238, 238, 238);
+  text-decoration: none;
+ }
+
+a,h1,h2,h3,strong{
+  text-transform: uppercase;
+  font-family:'Courier New', Courier, monospace;
+  letter-spacing: 1px;
+ }
+header{
+    
+  image-rendering: optimizeQuality;
+    border: 1px solid rgb(77, 9, 3);
+    background-color: black;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);  
+ }
+
+ .imagen_header img{
+  width: 40%;
+  margin-left: 27%;
+
+ }
+
+.imagen_header{
+  width:100%;
+}
+
+/*
+header ul{
+ gap: 2%;
+ font-size: 2vw;
+ height: fit-content;
+ display: flex;
+ }
+
+ .lista_navegador{
+  text-align: left;
+  display: flex;
+  align-items:baseline;
+  justify-self: space-between;
+  padding: 1%;
+  width: 100%;
+  margin-left:15%;
+  margin-right: 15%;
+  background-color: black;
+
+}
+ 
+@media (max-width:750px){
+  header ul{
+    flex-direction:column;
+    align-items:flex-end;
+  }
+ }
+  */  
+#faccion{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;  
+}
+
+
+#faccion ul{
+width: 80%;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+gap: 7%;
+margin-bottom: 30%;
+margin-top: 5%;
+
+}
+
+#faccion li {
+  align-items: center;
+}
+.caja_personaje {
+  width:100%;
+}
+
+.caja_personaje img{
+  width: 80%;
+  height: 90%;
+  align-items: center;
+
+}
+/*
+@media (max-width:750px){
+  .caja_personaje{
+    flex-direction:column;
+    align-items:column;
+    width: 50%;
+  }
+ }
+*/
+.logos img{
+  width: 50%;
+  align-items: center;
+  margin-left: 25%;
+}
+
+
+#paradis{
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-image:url(https://pm1.aminoapps.com/6859/0337fd14865d9dd441bfd4bca9320443e4210617v2_hq.jpg);
+  background-size: cover;
+ }
+
+#mas_alla{
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  background-image:url(https://preview.redd.it/aot-spoilers-the-nation-and-people-of-marley-on-the-eve-of-v0-7rwfts24y2aa1.png?width=1080&crop=smart&auto=webp&s=d60294636c23265be4ca220b2ff9af6c3cef7013);
+  background-size: cover;
+  }
+
+ /* body{
+    background-color: rgb(39, 38, 38);
+    padding: 20px;
+  }*/
+
+  header {
+    background-color: black;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);
+    padding: 20px 0;
+    border-bottom: 3px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .imagen_header img {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .lista_navegador {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .lista_navegador a {
+    color: var(--text-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+    position: relative;
+  }
+  
+  .lista_navegador a:hover {
+    color: var(--primary-color);
+  }
+  
+  .lista_navegador a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--border-color);
+    transition: width 0.3s ease;
+  }
+  
+  .lista_navegador a:hover::after {
+    width: 100%;
+  }
+  
+
+h1{
+    text-align: center;
+    font-size: 3vw; 
+  }
+
+ h2{
+   font-size: 2vw;
+  }
+
+h3{
+  font-size: 2vw;
+}
+
+main{
+  image-rendering: optimizeQuality;
+  background-image:url(https://wallpapers.com/images/high/aot-the-walls-bnluhbt1havoyn8q.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    max-width: 100%;
+    border: orangered;
+}
+
+/*nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+
+}*/
+ section{
+   background-color: goldenrod;
+   color: black;
+   border: 2px solid orangered;
+   size: relative;
+   padding: 1%;
+ }
+ 
+ section {
+  padding: 40px 20px;
+}
+
+#about {
+  background-color: var(--secondary-color);
+  color: black;
+  border: 2px solid var(--border-color);
+}
+
+#about p {
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 8px;
+  color: var(--text-color);
+}
+
+#faccion {
+  background-image: url('https://wallpapers.com/images/high/aot-the-walls-bnluhbt1havoyn8q.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  padding-bottom: 60px;
+}
+
+#faccion h1, #faccion h2 {
+  text-align: center;
+  color: var(--text-color);
+  text-shadow: 2px 2px 5px black;
+  margin: 30px 0;
+}
+
+.logos {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logos img {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid var(--border-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+
+ .characters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.character-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.character-card img {
+  width: 80%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 2px solid var(--primary-color);
+  transition: transform 0.3s ease;
+}
+
+.character-card:hover img {
+  transform: scale(1.05);
+}
+
+.character-card details {
+  width: 100%;
+}
+
+.character-card summary {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.character-card summary:hover {
+  background-color: var(--primary-color);
+}
+
+.character-card p {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.character-card input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 80%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Tabletas */
+@media (max-width: 992px) {
+  .characters-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .lista_navegador {
+    font-size: 1.2rem;
+  }
+}
+
+/* Móviles */
+@media (max-width: 576px) {
+  header {
+    padding: 10px 0;
+  }
+  
+  .imagen_header img {
+    width: 80px;
+  }
+  
+  .lista_navegador {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+  }
+  
+  .characters-grid {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+  
+ aside{
+    background-color: rgb(48, 48, 48);
+    border: 2px solid orangered;
+    margin: 10%; 
+  }
+
+  video{
+    width: fit-content;
+    height: fit-content;
+  }
+
+ /*footer { 
+    background-color: black;
+    color: rgb(0, 0, 0);
+    border: 2px solid orangered;
+    }
+    
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .footer-about {
+      flex: 1;
+      min-width: 300px;
+    }
+    
+    .footer-about>p{
+      font-size: 3vw;
+      border: 1px solid rgb(77, 9, 3);
+      font-weight: 200;
+      text-align: left; 
+      background-color: rgb(0, 0, 0); 
+      color: bisque;
+      position: left;
+      size: relative;
+      padding: 1%;
+
+    }
+    
+    .footer-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: right;
+      max-width: 100%;
+      height: auto;
+    }
+    
+footer>h2{
+  color: bisque;
+}
+*/
+footer {
+  background-color: black;
+  padding: 40px 20px;
+  border-top: 3px solid var(--border-color);
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-about {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-image {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.footer-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 2px solid var(--border-color);
+}
+
+p{
+  font-size: 2vw;
+  border: 1px solid rgb(77, 9, 3);
+  font-weight: 200;
+  text-align: left; 
+  background-color: rgb(0, 0, 0); 
+  color: bisque;
+  position: left;
+  size: relative;
+  padding: 1%;
+}
+
