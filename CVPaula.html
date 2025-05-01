@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Primer Empleo</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .section-title {
+            color: #2c5282;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .contact-icon {
+            width: 20px;
+            margin-right: 10px;
+            color: #4a5568;
+            text-align: center;
+        }
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 py-8">
+    <div class="cv-container shadow-lg bg-white">
+        <header class="section">
+            <h1 class="text-3xl font-bold text-center mb-1">PAULA ANDREA GRCIA MOSQUERA </h1>
+            <p class="text-center text-gray-600 mb-4">Camarera</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                <div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>+34 625933969</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>paulaandreagarciamosquera@gmail.com</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>VILAGARCÍADE AROUSA</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div>Fecha de nacimiento: 28/09/2006</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2 class="section-title">PERFIL PROFESIONAL</h2>
+            <p>
+                Joven dinámica y responsable con experiencia como camarera. Orientada al cliente, con buenas habilidades de comunicación y capacidad para trabajar en entornos de alta presión. Comprometida con ofrecer un servicio de calidad y contribuir positivamente al ambiente de trabajo.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">EXPERIENCIA LABORAL</h2>
+            <div class="mb-4">
+                <div class="flex justify-between">
+                    <h3 class="font-semibold">Camarera</h3>
+                    <span class="text-gray-600">ABRIL 2025</span>
+                </div>
+                <div class="text-gray-700 italic">XOCAS; VILAGARCÍA DE AROUSA</div>
+                <ul class="list-disc ml-5 mt-2">
+                    <li>Atención y servicio a los clientes en sala y terraza.</li>
+                    <li>Preparación de mesas y mantenimiento del orden en el local.</li>
+                    <li>Toma de pedidos y coordinación con cocina.</li>
+                    <li>Gestión de cobros y manejo de caja.</li>
+                    <li>Resolución de incidencias y atención personalizada a clientes.</li>
+                </ul>
+            </div>
+            <!-- Puedes duplicar este bloque si tienes más experiencias similares -->
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">FORMACIÓN ACADÉMICA</h2>
+            <div>
+                <div class="flex justify-between">
+                    <h3 class="font-semibold">Educación primaria</h3>
+                    <span class="text-gray-600">2019</span>
+                </div>
+                <div class="text-gray-700 italic">Arealonga, Vilagarcía de Arousa</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">HABILIDADES PROFESIONALES</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <ul class="list-disc ml-5">
+                        <li>Atención al cliente</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Resolución de problemas</li>
+                        <li>Comunicación efectiva</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="list-disc ml-5">
+                        <li>Organización</li>
+                        <li>Proactividad</li>
+                        <li>Resistencia al trabajo bajo presión</li>
+                        <li>Puntualidad y responsabilidad</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">IDIOMAS</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <div class="font-semibold">Español</div>
+                    <div class="text-gray-700">Nativo</div>
+                </div>
+                <div>
+                    <div class="font-semibold">Gallego</div>
+                    <div class="text-gray-700">Nativo</div>
+                </div>
+                <div>
+                    <div class="font-semibold">Dialecto Canario</div>
+                    <div class="text-gray-700">Nativo</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">DISPONIBILIDAD</h2>
+            <p>Disponibilidad inmediata, jornada completa o parcial, fines de semana y festivos.</p>
+        </section>
+
+        <footer class="mt-8 text-center text-gray-500 text-sm">
+            <p></p>
+        </footer>
+    </div>
+</body>
+</html>
