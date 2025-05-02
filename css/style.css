@@ -55,8 +55,8 @@ header{
  }
 
  .imagen_header img{
-  width: 60%;
-  margin-left: 27%;
+  width: 30%;
+  margin-left: 25%;
 
  }
 
@@ -67,7 +67,7 @@ header{
 
 header ul{
  gap: 2%;
- font-size: 2vw;
+ font-size:medium;
  height: fit-content;
  display: flex;
  }
@@ -289,7 +289,9 @@ nav {
 }
 
 .logos img {
-  width: 240px;
+  width: 30%;
+  margin-left: 1%;
+  margin-top: 20%;
   border-radius: 50%;
   border: 3px solid var(--border-color);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
@@ -384,7 +386,7 @@ nav {
   }
   
   .imagen_header img {
-    width: 80px;
+    width: 30%;
   }
   
   .lista_navegador {
@@ -420,8 +422,8 @@ nav {
   }
 
   video{
-    width: fit-content;
-    height: fit-content;
+    width:75%;
+    height: auto;
   }
 
  /*footer { 
