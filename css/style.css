@@ -497,6 +497,10 @@ footer {
   text-align: center;
 }
 
+.footer-p {
+  font-size: 2vw;
+}
+
 .footer-image img {
   max-width: 100%;
   border-radius: 10px;
