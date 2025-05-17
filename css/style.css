@@ -329,7 +329,7 @@ nav {
   .logos {
     width: 150%;
     height: auto;
-    padding-right: 25%;
+    padding-right: 35%;
 
   }
   .imagen_header img {
@@ -365,13 +365,10 @@ nav {
  aside{
     background-color: rgb(48, 48, 48);
     border: 2px solid orangered;
-    margin: 3%; 
+    margin: 3%;
+
   }
 
-  #video{
-    width:100%;
-    height:auto;
-  }
 
 footer {
   background-color: black;
