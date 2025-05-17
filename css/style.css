@@ -81,7 +81,7 @@ header ul{
  gap: 2%;
  font-size:medium;
  flex-direction: column;
- padding: 20px; 
+ padding: 10px; 
 
  }
   
@@ -324,18 +324,19 @@ nav {
 /* Móviles */
 @media (max-width: 576px) {
   header {
-    padding: 10px 0;
+    padding: 6px 0;
   }
   
   .imagen_header img {
-    width: 60%;
+    width: 70%;
   }
   
   .lista_navegador {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     font-size: 1.2 rem;
+    padding-right: 5%;
   }
   
   .characters-grid {
