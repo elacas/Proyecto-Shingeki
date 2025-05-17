@@ -327,9 +327,9 @@ nav {
     padding: 6px 0;
   }
   .logos {
-    width: 170%;
+    width: 150%;
     height: auto;
-    align-items:center;
+    padding-right: 25%;
 
   }
   .imagen_header img {
