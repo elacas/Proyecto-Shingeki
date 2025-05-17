@@ -355,6 +355,12 @@ nav {
   p {
     font-size: 1.5 rem;
   }
+
+  .logos img{
+    width: 40%;
+    height: auto;
+
+  }
 }
 
 
