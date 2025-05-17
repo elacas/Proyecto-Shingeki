@@ -92,36 +92,6 @@ header ul{
   }
  }
   
-#faccion{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;  
-}
-
-
-#faccion ul{
-width: 80%;
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-gap: 7%;
-
-}
-
-#faccion li {
-  align-items: center;
-}
-.caja_personaje {
-  width:100%;
-}
-
-.caja_personaje img{
-  width: 80%;
-  height: 90%;
-  align-items: center;
-
-}
-
 .logos img{
   width: 50%;
   align-items: center;
@@ -237,11 +207,11 @@ nav {
    size: relative;
    padding: 1%;
  }
- 
+ /*
  section {
   padding: 20px 20px;
 }
-
+*/
 #about {
   background-color: var(--secondary-color);
   color: black;
