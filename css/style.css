@@ -326,7 +326,11 @@ nav {
   header {
     padding: 6px 0;
   }
-  
+  .logos {
+    width: 40%;
+    height: auto;
+
+  }
   .imagen_header img {
     width: 70%;
   }
@@ -336,7 +340,6 @@ nav {
     align-items: center;
     gap: 8px;
     font-size: 1.7 rem;
-    padding-right: 5%;
   }
   
   .characters-grid {
@@ -354,12 +357,6 @@ nav {
   
   p {
     font-size: 1.5 rem;
-  }
-
-  .logos img{
-    width: 40%;
-    height: auto;
-
   }
 }
 
