@@ -51,40 +51,40 @@ header{
   image-rendering: optimizeQuality;
     border: 1px solid rgb(77, 9, 3);
     background-color: black;
-    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);  
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);
  }
 
  .imagen_header img{
   width: 30%;
-  margin-left: 25%;
+  margin-left: 20%;
 
  }
 
-.imagen_header{
-  width:100%;
-}
+header {
+    background-color: black;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);
+    border-bottom: 3px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 150;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 40px;
+    
+  }
 
+.imagen_header img {
+    width: 230px;
+  }
 
 header ul{
  gap: 2%;
  font-size:medium;
- height: fit-content;
- display: flex;
+ flex-direction: column;
+ padding: 20px;
  }
-
- .lista_navegador{
-  text-align: left;
-  display: flex;
-  align-items:baseline;
-  justify-self: space-between;
-  padding: 1%;
-  width: 100%;
-  margin-left:15%;
-  margin-right: 15%;
-  background-color: black;
-
-}
- 
+  
 @media (max-width:750px){
   header ul{
     flex-direction:column;
@@ -113,29 +113,14 @@ header ul{
   background-image:url(https://preview.redd.it/aot-spoilers-the-nation-and-people-of-marley-on-the-eve-of-v0-7rwfts24y2aa1.png?width=1080&crop=smart&auto=webp&s=d60294636c23265be4ca220b2ff9af6c3cef7013);
   background-size: cover;
   }
-
-  header {
-    background-color: black;
-    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);
-    padding: 20px 0;
-    border-bottom: 3px solid var(--border-color);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  
-  .imagen_header img {
-    width: 240px;
-    display: block;
-    margin: 0 auto;
-  }
   
   .lista_navegador {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 20px;
-    padding: 15px 0;
+    padding: 10%;
+   width: 100%;
+   margin-left:15%;
+   margin-right: 15%;
     background-color: rgba(0, 0, 0, 0.7);
   }
   
@@ -143,7 +128,7 @@ header ul{
     color: var(--text-color);
     font-weight: bold;
     transition: color 0.3s ease;
-    position: relative;
+    /*position: relative;*/
   }
   
   .lista_navegador a:hover {
@@ -196,7 +181,7 @@ main{
 nav {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   justify-content: space-between;
 }
 
@@ -207,11 +192,8 @@ nav {
    size: relative;
    padding: 1%;
  }
- /*
- section {
-  padding: 20px 20px;
-}
-*/
+
+
 #about {
   background-color: var(--secondary-color);
   color: black;
