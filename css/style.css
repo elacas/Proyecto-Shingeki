@@ -140,7 +140,7 @@ gap: 7%;
 #paradis{
   font-weight: bold;
   font-size: 40px;
-  color: rgb(0, 0, 0);
+  color: black;
   text-align: left;
   background-image:url(https://pm1.aminoapps.com/6859/0337fd14865d9dd441bfd4bca9320443e4210617v2_hq.jpg);
   background-size: cover;
@@ -210,6 +210,12 @@ gap: 7%;
     width: 100%;
   }
   
+#marleyimg {
+  height: 2%;
+  width: 25%;
+  
+
+}
 
 h1{
     text-align: center;
@@ -289,7 +295,7 @@ nav {
 }
 
 .logos img {
-  width: 30%;
+  width: 40%;
   margin-left: 1%;
   margin-top: 20%;
   border-radius: 50%;
@@ -375,7 +381,7 @@ nav {
   }
   
   .lista_navegador {
-    font-size: 1.2rem;
+    font-size: 1 rem;
   }
 }
 
@@ -414,16 +420,16 @@ nav {
   }
 }
 
-  
+
  aside{
     background-color: rgb(48, 48, 48);
     border: 2px solid orangered;
-    margin: 10%; 
+    margin: 5%; 
   }
 
   #video{
     width:100%;
-    height: auto;
+    height:auto;
   }
 
  /*footer { 
