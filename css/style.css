@@ -328,14 +328,14 @@ nav {
   }
   
   .imagen_header img {
-    width: 30%;
+    width: 60%;
   }
   
   .lista_navegador {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    font-size: 1.5 rem;
+    font-size: 1.2 rem;
   }
   
   .characters-grid {
