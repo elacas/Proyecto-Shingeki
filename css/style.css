@@ -99,9 +99,9 @@ header ul{
 }
 
 #paradis{
-  font-weight: bold;
-  font-size: 40px;
-  color: black;
+  font-size: 40px; 
+   color: black;
+   font-weight: bold;
   background-image:url(https://pm1.aminoapps.com/6859/0337fd14865d9dd441bfd4bca9320443e4210617v2_hq.jpg);
   background-size: cover;
  }
@@ -353,7 +353,7 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    font-size: 1rem;
+    font-size: 1.5 rem;
   }
   
   .characters-grid {
@@ -362,15 +362,15 @@ nav {
   }
   
   h1 {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
   }
   
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.7 rem;
   }
   
   p {
-    font-size: 0.9rem;
+    font-size: 1.5 rem;
   }
 }
 
