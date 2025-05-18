@@ -347,21 +347,15 @@ nav {
     font-size: 1.5 rem;
   }
   
-  p {
-    font-size: 1.5 rem;
-  }
-
   .footer-p{
     font-size: 1.5rem;
   }
 
-  .main-p,h3{
+  .main,h3,p{
     font-size: 1.5rem;
     
   }
 }
-
-
 
 aside{
     background-color: rgb(48, 48, 48);
