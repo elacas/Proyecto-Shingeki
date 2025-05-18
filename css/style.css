@@ -46,42 +46,25 @@ a,h1,h2,h3,strong{
   font-family:'Courier New', Courier, monospace;
   letter-spacing: 1px;
  }
-header{
-    
-  image-rendering: optimizeQuality;
-    border: 1px solid rgb(77, 9, 3);
-    background-color: black;
-    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);
- }
-
- .imagen_header img{
-  width: 30%;
-  margin-left: 16%;
- }
 
 header {
     background-color: black;
     background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);
-    border-bottom: 3px solid var(--border-color);
-    position: sticky;
+    border-bottom: 2px solid var(--border-color);
+
     top: 0;
-    z-index: 150;
+    z-index: 60;
     display: flex;
-    align-items:center;
-    justify-content:center;
-    padding: 2px;
-   
   }
 
 .imagen_header img {
-    width: 235px;
+    width: 200px;
   }
 
 header ul{
- gap: 2%;
  font-size:medium;
- flex-direction: column;
- padding: 10px; 
+ display: flex;
+ align-items: first baseline;
 
  }
   
@@ -116,9 +99,9 @@ header ul{
   
   .lista_navegador {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     padding: 10%;
-   width: 100%;
+   width: 80%;
    margin-left:15%;
    margin-right: 15%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -270,7 +253,7 @@ nav {
 
 .character-card img {
   width: 80%;
-  height: 80%;
+  height: auto;
   border-radius: 10px;
   margin-bottom: 15px;
   border: 2px solid var(--primary-color);
@@ -299,7 +282,7 @@ nav {
 .character-card p {
   margin: 10px 0;
   padding: 10px;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .character-card input {
@@ -366,17 +349,12 @@ nav {
 }
 
 
- aside{
+aside{
     background-color: rgb(48, 48, 48);
     border: 2px solid orangered;
     margin: 3%;
 
   }
-
-video{
-  width: 100%;
-  height: auto;
-}
 
 footer {
   background-color: black;
