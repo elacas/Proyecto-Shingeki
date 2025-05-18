@@ -330,19 +330,22 @@ nav {
     padding: 6px 0;
   }
   .logos {
-    width: 195%;
+    width: 150%;
     height: auto;
-    padding-right: 92%;
+    align-items: center;
+    margin-right: 40%;
   }
   .imagen_header img {
-    width: 70%;
+    width:70%;
   }
   
   .lista_navegador {
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-    font-size: 1.7 rem;
+    gap: 10px;
+    font-size: 1.2 rem;
+    margin-right: 85%;
+    padding: 35%;
   }
   
   .characters-grid {
