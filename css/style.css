@@ -330,8 +330,9 @@ nav {
     padding: 6px 0;
   }
   .logos {
-    width: 100%;
+    width: 195%;
     height: auto;
+    padding-right: 92%;
   }
   .imagen_header img {
     width: 70%;
