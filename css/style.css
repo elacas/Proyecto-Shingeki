@@ -310,7 +310,7 @@ nav {
 /* Móviles */
 @media (max-width: 576px) {
   header {
-    padding: 6px 0;
+    padding: 2px 0;
   }
   .logos {
     width: 100%;
@@ -325,8 +325,8 @@ nav {
   .lista_navegador {
     flex-direction: column;
     align-items: center;
-    gap: 6px;
-    font-size: 1.2 rem;
+    gap: 1px;
+    font-size: 0.6rem;
     margin-right: 85%;
   }
   
