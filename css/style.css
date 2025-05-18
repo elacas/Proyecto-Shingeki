@@ -373,6 +373,10 @@ nav {
 
   }
 
+video{
+  width: 100%;
+  height: auto;
+}
 
 footer {
   background-color: black;
