@@ -355,8 +355,9 @@ nav {
     font-size: 1.5rem;
   }
 
-  .main-p{
+  .main-p,h3{
     font-size: 1.5rem;
+    
   }
 }
 
