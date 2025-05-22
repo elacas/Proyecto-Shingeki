@@ -51,20 +51,21 @@ header {
     background-color: black;
     background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-pared-hormigon-gris-oscuro_150101-4323.jpg);
     border-bottom: 2px solid var(--border-color);
-
-    top: 0;
-    z-index: 60;
-    display: flex;
   }
 
 .imagen_header img {
     width: 200px;
+    align-items: center;
+    margin-left: 43%;
+    
   }
 
 header ul{
  font-size:medium;
  display: flex;
- align-items: first baseline;
+ height: fit-content;
+ gap: 5%;
+ align-items: baseline;
 
  }
   
@@ -99,11 +100,11 @@ header ul{
   
   .lista_navegador {
     display: flex;
-    gap: 10px;
-    padding: 10%;
-   width: 80%;
-   margin-left:15%;
-   margin-right: 15%;
+    align-items:flex-end;
+    gap: 3%;
+    padding: 1%;
+    margin-left:30%;
+    margin-right: 15%;
     background-color: rgba(0, 0, 0, 0.7);
   }
   
@@ -212,11 +213,11 @@ nav {
 
 .logos {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .logos img {
-  width: 40%;
+  width: 30%;
   margin-left: 1%;
   margin-top: 10%;
   border-radius: 50%;
@@ -227,7 +228,7 @@ nav {
 
  .characters-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 20px;
   padding: 30px;
   margin: 0 auto;
@@ -364,6 +365,11 @@ aside{
 
   }
 
+video{
+    width: fit-content;
+    height: fit-content;
+  }
+
 footer {
   background-color: black;
   padding: 40px 20px;
@@ -402,7 +408,7 @@ footer {
 }
 
 p{
-  font-size: 2vw;
+  font-size: 1.3vw;
   border: 1px solid rgb(77, 9, 3);
   font-weight: 200;
   text-align: left; 
@@ -410,6 +416,7 @@ p{
   color: bisque;
   position: left;
   size: relative;
-  padding: 1%;
+  padding: 5%;
+  margin: 15%;
 }
 
