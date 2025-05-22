@@ -228,7 +228,7 @@ nav {
 
  .characters-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
   gap: 20px;
   padding: 30px;
   margin: 0 auto;
@@ -361,7 +361,7 @@ nav {
     font-size: 1.5rem;
     
   }
-  p{
+  .footer-about,p{
     font-size: 1rem;
   }
 }
