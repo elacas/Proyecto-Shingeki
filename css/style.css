@@ -312,25 +312,30 @@ nav {
 @media (max-width: 576px) {
   header {
     padding: 2px 0;
+     display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 2px;
   }
   .logos {
     width: 100%;
     height: auto;
-    align-items: center;
+    align-items: space-between;
     margin-right: 20%;
   }
   .imagen_header img {
     width:70%;
+    display: flex;
+    justify-content: left;
     padding-right: 20%;
   }
   
-  .lista_navegador {
-    align-items: center;
-    gap: 1px;
-    font-size: 0.6rem;
-    margin-right: 85%;
+  header ul{
+ gap: 2%;
+ font-size:medium;
+ flex-direction: column;
+ padding: 10px;
   }
-  
   .characters-grid {
     grid-template-columns: 1fr;
     padding: 15px;
